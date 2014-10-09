@@ -13,10 +13,12 @@ Follow either of the two links above to access the appropriate CLA and instructi
 
 ## Contributing A Patch
 
-Please read [this doc](DEVRULES.md) for information on how we're running development for the project.
-
 1. Submit an issue describing your proposed change to the repo in question.
 1. The repo owner will respond to your issue promptly.
 1. If your proposed change is accepted, and you haven't already done so, sign a Contributor License Agreement (see details above).
 1. Fork the desired repo, develop and test your code changes.
 1. Submit a pull request.
+
+## Protocols for Collaborative Development
+
+Please read [this doc](DEVRULES.md) for information on how we're running development for the project.

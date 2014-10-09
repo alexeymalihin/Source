@@ -1,6 +1,20 @@
-# SourceJS team developers agreements
+# On Collaborative Development (SourceJS team developers agreements).
 
-## Single feature (issue, etc.) development step-by-step guide.
+## Patches welcome
+
+First of all: as a potential contributor, your changes and ideas are welcome. Please do not ever hesitate to ask a question or send a PR.
+
+## Code reviews
+
+All changes must be code reviewed. For non-maintainers this is obvious, since you can't commit anyway. But even for maintainers, we want all changes to get at least one review, preferably from someone who knows the areas the change touches. For non-trivial changes we may want two or even more reviewers. Most PRs will find reviewers organically.
+Except for rare cases, such as trivial changes (e.g. typos, comments) or emergencies (e.g. broken builds), maintainers should not merge their own changes.
+Any maintainer or core contributor who wants to review a PR but does not have time immediately may put a kind of hold on a PR simply by saying so on the PR discussion and offering an ETA.
+
+## Branches and versions
+
+Stable project version is on master branch. Upcoming version is on release candidate (RC) one, which is forked from master and used to be a base for development. Each release bumps version according to [Semantic Versions specification](http://semver.org/).
+
+## Single feature (issue, etc.) contribution guide for maintainers.
 
 1. Create new branch which is forked from current Release Candidate branch.
 1. Name it according to the next template: `[developer second name | nickname]/[issue | task | feature | changeslist name]`. E.g. `smith/search-redesign`.
@@ -10,7 +24,7 @@
 1. Approved PR should be merged into current RC branch. Squashed commits are possible but they aren't preferable.
 1. Merged feature branch should be removed from remote repo.
 
-## Common points of work with repo.
+## Common points.
 1. Branch naming template: `[developers second name | nickname]/[issue | task | feature | changes list name]`.
 1. Atomic commits and informative commit messages.
 1. Version bumps according to [specification](http://semver.org/).
