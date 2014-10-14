@@ -4,13 +4,6 @@
 
 We'd love to accept your sample apps and patches! Before we can take them, we have to jump a couple of legal hurdles.
 
-Please fill out either the individual or corporate Contributor License Agreement (CLA).
-
-  * If you are an individual writing original source code and you're sure you own the intellectual property, then you'll need to sign an [individual CLA](https://developers.google.com/open-source/cla/individual).
-  * If you work for a company that wants to allow you to contribute your work, then you'll need to sign a [corporate CLA](https://developers.google.com/open-source/cla/corporate).
-
-Follow either of the two links above to access the appropriate CLA and instructions for how to sign and return it. Once we receive it, we'll be able to accept your pull requests.
-
 ## Contributing A Patch
 
 1. Submit an issue describing your proposed change to the repo in question.
@@ -25,8 +18,8 @@ Please read [this doc](MAINTAINING.md) for information on how we're running deve
 
 # Additional Resources
 
-* [Twitter](https://twitter.com/SourceJS)
-* [Web site](http://sourcejs.com/)
+* [@SourceJS](https://twitter.com/SourceJS)
+* [Web site](http://sourcejs.com)
 * [Gitter chat](https://gitter.im/sourcejs/Source)
 * [General documentation](http://sourcejs.com/docs/)
 * [Quick Start guide](http://sourcejs.com/docs/base/)
@@ -37,9 +30,14 @@ Please read [this doc](MAINTAINING.md) for information on how we're running deve
 All inquiries should be forwarded to [Robert Haritonov](https://github.com/operatino). 
 
 Core contributors and maintainers:
-* [Operatino](https://github.com/operatino)
-* [Cheshirsky](https://github.com/cheshirsky)
-* [Fromanywhere](https://github.com/fromanywhere)
-* [Jesprider](https://github.com/jesprider)
-* [Ostroffsky](https://github.com/ostroffsky)
-* [Leikam](https://github.com/Leikam)
+* [Robert Haritonov](https://github.com/operatino)
+* [Ilya Mikhailov](https://github.com/cheshirsky)
+* [Ivan Metelev](https://github.com/fromanywhere)
+* [Roman Alekseev](https://github.com/jesprider)
+* [Alexey Ostrovsky](https://github.com/ostroffsky)
+* [Dimitry Lapynov](https://github.com/Leikam)
+* [Daniel Mishcherin](https://github.com/mishcherin)
+* [Gennady Tsarinny](https://github.com/genson)
+* [Dennis Przendzinski](https://github.com/nightkin)
+* [Evgeniy Khoroshilov](https://github.com/XOP)
+* [Juris Pukitis](https://github.com/jurispukitis)
