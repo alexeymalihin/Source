@@ -18,21 +18,27 @@ Stable project version is on master branch. Upcoming version is on release candi
 ## Single feature (issue, etc.) contribution guide for maintainers.
 
 * Create new branch which is forked from current Release Candidate branch.
-* Name it according to the next template: 
-`[developer second name | nickname]/[issue | task | feature | changeslist name]`. E.g. `smith/search-redesign`.
+* Name it according to the next template:
+`[developer second name | nickname]/[issue number | task | feature | changeslist name]`. E.g. `smith/search-redesign`.
 * Develop and test your code changes. Atomic commits and informative commit messages are required.
+E.g. If you decide to implement code linting task, the list of commit messages can looks like that:
+ - Code linting task configuration is added. Nested node modules are added (see package.json).
+ - Some fixes are implemented due to code linting result.
+ - A couple of additional options are added into linting config.
+ - * merge branch master into smith/code-linting.
+ - Missing parameter is added, some trivial fixes are implemented due to CR feedback.
 * Merge RC branch into yours, if your changes are implemented.
 * Create Pull Request from your branch into Release Candidate branch. Please don't forget that PR description should be useful and informative. It is very important for release notes.
 * Approved PR should be merged into current RC branch. Squashed commits are possible but they aren't preferable.
 * Merged feature branch should be removed from remote repo.
 
 ## Basic agreement points.
-* Branch naming template: `[developers second name | nickname]/[issue | task | feature | changes list name]`.
+* Branch naming template: `[developers second name | nickname]/[issue number | task | feature | changes list name]`.
 * Atomic commits and informative commit messages.
 * Version bumps according to [specification](http://semver.org/).
 * Using Pull Requests to apply changes.
 * PR description should be useful and informative. It is very important for release notes.
-* Release candidate branches usage for changes and tests. 
+* Release candidate branches usage for changes and tests.
 * Github releases and tags usage for each changes list (for RC branches).
 
 ### Example:
@@ -45,4 +51,4 @@ Stable project version is on master branch. Upcoming version is on release candi
 * New release should be marked by tag with release notes. Release notes text can be formed from PR descriptions.
 
 
-If you have any related questions, contact [Robert Haritonov](https://github.com/operatino) please.
+If you have any related questions, contact Robert Haritonov [@operatino](https://github.com/operatino) please.
